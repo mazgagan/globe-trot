@@ -23,8 +23,6 @@ var dbCOnnectionObj;
 // Connect to the db test
 // test commit TEST
 var port = process.env.PORT || 8080;
-
-
 MongoClient.connect("mongodb://admin:password@ds145359.mlab.com:45359/globe_trot", function(err, db) {
     if (!err) {
         console.log("Database connection made!");
